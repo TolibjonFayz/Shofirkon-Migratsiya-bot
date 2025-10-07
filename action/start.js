@@ -82,7 +82,7 @@ bot.on("text", async (ctx) => {
       `Yangi foydalanuvchi: ${ctx.from.first_name}\n\nTo'liq ism familiyasi: ${user.first_name}\nYoshi: ${user.age}\nQaysi tumandansiz: ${user.location}\nQaysi til(lar)ni biladi: ${user.languagesHeKnows}\nQayersi davlatga bormoqchi: ${user.whereToGo}`
     );
   } else {
-    ctx.replyWithHTML("Ha ota, og'riq bormi?");
+    // ctx.replyWithHTML("");
   }
 });
 
