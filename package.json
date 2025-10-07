@@ -1,0 +1,19 @@
+{
+  "name": "translator",
+  "version": "2.1.5",
+  "description": "Translator bot for all",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Tolibjon Fayzullayev",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mongoose": "^8.19.0",
+    "nodemon": "^3.1.10",
+    "telegraf": "^4.16.3"
+  }
+}
